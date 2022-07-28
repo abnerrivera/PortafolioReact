@@ -9,6 +9,15 @@ import tailwind from '../../assets/tailwind.png'
 import nextjs from '../../assets/nextjs.png'
 import github from '../../assets/github.png'
 import nodejs from '../../assets/node.png'
+import sass from '../../assets/sass.png'
+import mongo from '../../assets/mongo.png'
+import styledC from '../../assets/styledC.png'
+import postMan from '../../assets/postMan.png'
+import materialUi from '../../assets/materialUi.png'
+import gitlab from '../../assets/gitlab.png'
+import jwt from '../../assets/jwt.png'
+import axios from '../../assets/axios.png'
+import express from '../../assets/express.png'
 
 const Experience = () => {
 
@@ -61,6 +70,61 @@ const Experience = () => {
       title: 'NODE',
       style: 'shadow-green-300'
     },
+    {
+      id: 9,
+      src: sass,
+      title: 'SASS',
+      style: 'shadow-pink-300'
+    },
+    {
+      id: 10,
+      src: mongo,
+      title: 'MONGO DB',
+      style: 'shadow-green-500'
+    },
+    {
+      id: 11,
+      src: styledC,
+      title: 'STYLED COMPONENTS',
+      style: 'shadow-pink-500'
+    },
+    {
+      id: 12,
+      src: postMan,
+      title: 'POST MAN',
+      style: 'shadow-orange-500'
+    },
+    {
+      id: 13,
+      src: materialUi,
+      title: 'MATERIAL UI',
+      style: 'shadow-blue-500'
+    },
+    {
+      id: 14,
+      src: gitlab,
+      title: 'GITLAB',
+      style: 'shadow-orange-500'
+    },
+    {
+      id: 15,
+      src: jwt,
+      title: 'JSON-WEB-TOKEN',
+      style: 'shadow-purple-500'
+    },
+    {
+      id: 16,
+      src: express,
+      title: 'EXPRESS JS',
+      style: 'shadow-gray-500'
+    },
+    {
+      id: 17,
+      src: axios,
+      title: 'AXIOS',
+      style: 'shadow-purple-500'
+    },
+
   ]
 
   return (
