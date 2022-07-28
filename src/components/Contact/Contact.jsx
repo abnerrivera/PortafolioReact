@@ -35,9 +35,9 @@ const Contact = () => {
   };
 
   return (
-    <div name='contact' className='contact w-full h-screen text-white'>
+    <div name='contact' className='w-full text-white md:h-screen'>
 
-      <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
+      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
         <div className='flex justify-center items-center'>
 
           <form
